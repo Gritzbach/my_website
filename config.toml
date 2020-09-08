@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "https://michael-gritzbach.netlify.app"
 languageCode = "en-us"
-title = "Forty"
+title = "Portfolio website for Michael Gritzbach"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -32,13 +32,13 @@ disqusShortname = ""
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    heading = "What a pity, something must have gone wrong."
+    text = "Try something else."
 
   # Navigation Section
   [params.navigation]
-    title = "Forty"
-    subtitle = "By HTML5 Up"
+    title = "Michael Gritzbach"
+    subtitle = "GitHub website for R and other publications"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -51,13 +51,13 @@ disqusShortname = ""
       name = "Blogs"
       url = "blogs"
 
-    [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
+  #  [[params.navigation.links]]
+ #     name = "Generic Blog"
+#      url = "blogs/ipsum"
 
-    [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+  #  [[params.navigation.links]]
+ #     name = "Elements"
+#      url = "elements.html"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -81,9 +81,9 @@ disqusShortname = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Hi, my name is Forty"
-    subtitle = "A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP\nAND RELEASED UNDER THE CREATIVE COMMONS."
-    buttonText = "Get Started"
+    title = "I am Michael, welcome to my website!"
+    subtitle = "This was a lot of work, let's hope it is worth it!"
+    buttonText = "Let's go!"
 
 
   # Tiles Section
@@ -92,40 +92,40 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Aliquam"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "Showcase"
+      subtitle = "Come and see!"
       image = "pic01.jpg"
       url = "blogs/aliquam"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
+      title = "LinkedIn - for now!"
+      subtitle = "If you want to see what qualifies me."
       image = "pic02.jpg"
-      url = "blogs/tempus"
+      url = "https://www.linkedin.com/in/michael-gritzbach/"
 
-    [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
-      image = "pic03.jpg"
-      url = "blogs/magna"
+#    [[params.tiles.showcase]]
+ #     title = "Magna"
+  #    subtitle = "Lorem Etiam Nullam"
+   #   image = "pic03.jpg"
+    #  url = "blogs/magna"
 
-    [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
-      image = "pic04.jpg"
-      url = "blogs/ipsum"
+#    [[params.tiles.showcase]]
+ #     title = "Ipsum"
+  #    subtitle = "Nisl Sed Aliquam"
+   #   image = "pic04.jpg"
+    #  url = "blogs/ipsum"
 
-    [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic05.jpg"
-      url = "blogs/ipsum"
+#    [[params.tiles.showcase]]
+ #     title = "Consequat"
+  #    subtitle = "Ipsum Dolor Sit Amet"
+   #   image = "pic05.jpg"
+    #  url = "blogs/ipsum"
 
-    [[params.tiles.showcase]]
-      title = "Etiam"
-      subtitle = "Feugiat Amet Tempus"
-      image = "pic06.jpg"
-      url = "blogs/ipsum"
+#    [[params.tiles.showcase]]
+ #     title = "Etiam"
+  #    subtitle = "Feugiat Amet Tempus"
+   #   image = "pic06.jpg"
+    #  url = "blogs/ipsum"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
@@ -138,12 +138,8 @@ disqusShortname = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
+    title = "Introduction"
+    subtitle = """Over the next year, this website will be used to show you plenty of work I created with my team at London Business School. This will include coding related to finance, process optimization, big data, and artificial intelligence. The prefered language for this will be R.If you are interested in working together or reaching out to me, you can find my contact data on this website."""
     buttonText = "Get Started"
     url = "blogs"
 
@@ -172,17 +168,17 @@ disqusShortname = ""
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "example@domain.com"
+    email = "mgritzbach@mit.edu"
 
-    [[params.contact.phone]]
-    title = "Phone"
-    phone = "(000) 000-0000 x1234"
+#    [[params.contact.phone]]
+ #   title = "Phone"
+  #  phone = "(000) 000-0000 x1234"
 
     [[params.contact.address]]
     title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    street = "Regent's Park"
+    city = "London NW1 4SA"
+    country = "United Kingdom"
 
   # Footer section
   [params.footer]
@@ -197,22 +193,22 @@ disqusShortname = ""
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      url= "https://www.facebook.com"
+      url= "https://www.facebook.com/michael.gritzbach/"
       label = "Facebook"
 
     [[params.footer.social]]
       icon = "fa-instagram"
-      url= "https://www.instagram.com"
+      url= "https://www.instagram.com/michael.gritzbach/"
       label = "Instagram"
     
     [[params.footer.social]]
       icon = "fa-github"
-      url= "https://www.github.com"
+      url= "https://github.com/Gritzbach"
       label = "GitHub"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      url= "https://www.linkedin.com"
+      url= "https://www.linkedin.com/in/michael-gritzbach/"
       label = "LinkedIn"
 
     [[params.footer.quicklinks]]
